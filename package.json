@@ -4,7 +4,9 @@
   "description": "simple line drawing program",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/mouxez/canvas/issues"
   },
-  "homepage": "https://github.com/mouxez/canvas#readme"
+  "homepage": "https://github.com/mouxez/canvas#readme",
+  "devDependencies": {
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0"
+  },
+  "dependencies": {}
 }
